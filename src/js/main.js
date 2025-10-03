@@ -1,9 +1,9 @@
 const container = document.querySelector("div");
 const grid = document.createElement("div");
 const row = document.createElement("div");
-grid.textContent = "test 2";
 
 row.className = "row";
+grid.className = "grid";
 console.log(row);
 
 for (let i = 0;i < 16;i++){
